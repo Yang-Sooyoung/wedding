@@ -1,46 +1,54 @@
-# Getting Started with Create React App
+### 💍 Wedding
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+>React 기반으로 제작한 디지털 청첩장 프로젝트입니다.  
+>JSON Server를 활용한 백엔드와 Kakao Map, 캘린더, 이미지 갤러리, 참석 여부 확인 등 다양한 기능을 포함하여 실제 서비스 수준의 최적화와 사용자 경험을 고려해 개발하였습니다.
 
-## Available Scripts
+</br>
 
-In the project directory, you can run:
+### 기술 스택
 
-### `yarn start`
+- **Frontend**: React, JavaScript, JSX, CSS
+- **Backend (Mock)**: JSON Server
+- **Map API**: Kakao Map API
+- **Animation/UX**: Modal (React Portal), Custom Fonts
+- **Optimization**: 이미지/폰트 최적화, memo, 컴포넌트 추상화
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+</br>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### 프로젝트 실행 방법
 
-### `yarn test`
+```bash
+# 1. 레포지토리 클론
+git clone https://github.com/Yang-Sooyoung/wedding.git
+cd wedding
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# 2. 의존성 설치
+npm install
 
-### `yarn build`
+# 3. JSON Server 실행 (별도 터미널에서)
+npx json-server --watch db.json --port 5000
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# 4. React 앱 실행
+npm start
+````
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+</br>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 주요 기능
 
-### `yarn eject`
+* 반응형 청첩장 UI
+* 인트로 영상 재생
+* 갤러리/일정/지도 연동
+* 참석 여부 확인 및 전송
+* JSON Server 기반의 간이 API 구축
+* 성능 최적화 및 에러 대응
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+</br>
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+#### 🙋‍♀️ 만든 사람
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- 👩‍💻 이름: 양수영 (Yang Sooyoung)
+- 🔗 GitHub: [@Yang-Sooyoung](https://github.com/Yang-Sooyoung)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+<br/>
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
