@@ -2,7 +2,7 @@
   "name": "part1_wedding",
   "version": "0.1.0",
   "private": true,
-  "homepage": ".",
+  "homepage": "https://wedding-e4mo.onrender.com",
   "dependencies": {
     "@testing-library/react": "^13.0.0",
     "@testing-library/user-event": "^13.2.1",
