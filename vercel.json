@@ -1,6 +1,3 @@
 {
-  "rewrites": [
-    { "source": "/api/(.*)", "destination": "https://part1-wedding.vercel.app/api/$1" },
-    { "source": "/(.*)", "destination": "/index.html" }
-  ]
-}
+    "routes": [{ "src": "/[^.]+", "dest": "/", "status": 200 }]
+}	
