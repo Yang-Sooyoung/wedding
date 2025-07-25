@@ -9,7 +9,8 @@ function AttendCountModal({ wedding }: { wedding: Wedding }) {
 
   const haveSeenModal = localStorage.getItem('@have-seen-modal')
 
-  const API_BASE_URL = process.env.REACT_APP_API_BASE_URL || 'http://localhost:8888';
+  const API_BASE_URL =
+    process.env.REACT_APP_API_BASE_URL || 'http://localhost:8888';
 
   useEffect(() => {
     if (haveSeenModal === 'true') {
