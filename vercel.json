@@ -1,6 +1,6 @@
 {
   "rewrites": [
-    { "source": "/api/(.*)", "destination": "https://part1-wedding.vercel.app/api/$1" },
+    { "source": "/api/(.*)", "destination": "https://wedding-e4mo.onrender.com/api/$1" },
     { "source": "/(.*)", "destination": "/index.html" }
   ]
 }
